@@ -4,11 +4,11 @@ on:
     branches:
       - master
     paths:
-      - './**'
+      - '../../'
 
 defaults:
   run:
-    working-directory: ./
+    working-directory: mfe
 
 jobs:
   build:
