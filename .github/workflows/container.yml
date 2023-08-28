@@ -6,9 +6,9 @@ on:
     paths:
       - '**'
 
-# defaults:
-#   run:
-#     working-directory: mfe
+defaults:
+  run:
+    working-directory: mfe
 
 jobs:
   build:
